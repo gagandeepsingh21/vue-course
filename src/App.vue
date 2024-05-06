@@ -1,15 +1,8 @@
 <script setup>
-import GlobalStyles from './components/GlobalStyle.vue'
-import LocalStyles from './components/LocalStyle.vue'
-import CombinedStyles from './components/CombinedStyle.vue'
-import ModuleStyles from './components/ModuleStyle.vue'
+import myEvent from './components/myEvent.vue';
 </script>
 <template>
-  <GlobalStyles />
-  <LocalStyles />
-  <CombinedStyles />
-  <ModuleStyles />
-  
+  <myEvent/>
   <h1></h1>
 </template>
 <style scoped></style>
